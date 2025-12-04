@@ -1,0 +1,21 @@
+{
+  "name": "Despacho Duralit",
+  "short_name": "Despacho",
+  "description": "Aplicacion de despacho para control de pallets.",
+  "start_url": "/views/login.php",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0000ff",
+  "icons": [
+    {
+      "src": "/src/LogoDespacho.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/LogoDespacho.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

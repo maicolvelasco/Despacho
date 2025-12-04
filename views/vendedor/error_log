@@ -1,0 +1,20 @@
+[29-Nov-2024 17:27:52 UTC] PHP Warning:  Undefined array key "total_pallets" in /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php on line 154
+[29-Nov-2024 17:27:52 UTC] PHP Warning:  Undefined array key "total_pallets" in /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php on line 154
+[29-Nov-2024 17:31:00 UTC] PHP Warning:  Undefined variable $envios in /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php on line 236
+[29-Nov-2024 17:31:00 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php:236
+Stack trace:
+#0 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php on line 236
+[29-Nov-2024 17:57:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /home/duralitc/public_html/despacho.duralit.com/models/ModeloVendedor.php:151
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloVendedor.php(151): PDOStatement->execute()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/vendedor/VendedorController.php(111): ModeloVendedor->obtenerEnviosCompletados()
+#2 /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php(82): require_once('/home/duralitc/...')
+#3 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloVendedor.php on line 151
+[29-Nov-2024 18:11:49 UTC] PHP Warning:  Undefined variable $modeloVendedor in /home/duralitc/public_html/despacho.duralit.com/controllers/vendedor/VendedorController.php on line 17
+[29-Nov-2024 18:11:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function obtenerEnviosEnTransito() on null in /home/duralitc/public_html/despacho.duralit.com/controllers/vendedor/VendedorController.php:17
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/views/vendedor/Vendedor_Dashboard.php(82): require_once()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/controllers/vendedor/VendedorController.php on line 17

@@ -1,0 +1,219 @@
+[28-Nov-2024 14:14:10 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 379
+[28-Nov-2024 14:14:10 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 392
+[28-Nov-2024 14:14:10 UTC] PHP Warning:  Undefined array key "departamento_id" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 393
+[28-Nov-2024 14:14:13 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 379
+[28-Nov-2024 14:14:13 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 392
+[28-Nov-2024 14:14:13 UTC] PHP Warning:  Undefined array key "departamento_id" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 393
+[28-Nov-2024 14:16:16 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 376
+[28-Nov-2024 14:16:22 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 376
+[28-Nov-2024 14:21:42 UTC] PHP Warning:  Undefined array key "cantidad" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 379
+[28-Nov-2024 14:41:08 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloSupervendedor::aceptarEnvio(), 1 passed in /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php on line 39 and exactly 2 expected in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:344
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 344
+[28-Nov-2024 14:42:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloSupervendedor::aceptarEnvio(), 1 passed in /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php on line 39 and exactly 2 expected in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:344
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 344
+[28-Nov-2024 14:58:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloSupervendedor::aceptarEnvio(), 1 passed in /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php on line 39 and exactly 2 expected in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:343
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 343
+[28-Nov-2024 14:59:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ModeloSupervendedor::aceptarEnvio(), 1 passed in /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php on line 39 and exactly 2 expected in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:343
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 343
+[28-Nov-2024 15:18:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.titulares' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:372
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(372): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 372
+[28-Nov-2024 15:18:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.titulares' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:372
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(372): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 372
+[28-Nov-2024 15:18:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.titulares' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:372
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(372): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 372
+[28-Nov-2024 15:50:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModeloSupervendedor::getDepartmentIdByUser_Id() in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:377
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 377
+[28-Nov-2024 15:50:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:404
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(404): PDOStatement->execute()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 404
+[28-Nov-2024 15:53:45 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:421
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 421
+[28-Nov-2024 15:54:13 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:421
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 421
+[28-Nov-2024 15:56:50 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:421
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 421
+[28-Nov-2024 15:58:27 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:421
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 421
+[28-Nov-2024 16:00:28 UTC] Rol del vendedor: 4
+[28-Nov-2024 16:00:28 UTC] ID del departamento: 2
+[28-Nov-2024 16:00:28 UTC] Stock actual del pallet ID 2: 2000
+[28-Nov-2024 16:00:28 UTC] Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[28-Nov-2024 16:00:28 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:431
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 431
+[28-Nov-2024 16:00:33 UTC] Rol del vendedor: 4
+[28-Nov-2024 16:00:33 UTC] ID del departamento: 2
+[28-Nov-2024 16:00:33 UTC] Stock actual del pallet ID 2: 2000
+[28-Nov-2024 16:00:33 UTC] Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[28-Nov-2024 16:00:33 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:431
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 431
+[28-Nov-2024 16:00:54 UTC] Rol del vendedor: 4
+[28-Nov-2024 16:00:54 UTC] ID del departamento: 2
+[28-Nov-2024 16:00:54 UTC] Stock actual del pallet ID 2: 2000
+[28-Nov-2024 16:00:54 UTC] Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[28-Nov-2024 16:00:54 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:431
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 431
+[28-Nov-2024 16:01:27 UTC] Rol del vendedor: 4
+[28-Nov-2024 16:01:27 UTC] ID del departamento: 2
+[28-Nov-2024 16:01:27 UTC] Stock actual del pallet ID 2: 2000
+[28-Nov-2024 16:01:27 UTC] Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[28-Nov-2024 16:01:27 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:431
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 431
+[28-Nov-2024 16:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ModeloSupervendedor::getDepartmentIdByUser_Id() in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:377
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 377
+[28-Nov-2024 16:09:25 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:09:25 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 2. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:422
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 422
+[28-Nov-2024 16:11:49 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:11:49 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:422
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 422
+[28-Nov-2024 16:17:41 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:17:41 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:17:50 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:17:50 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:21:42 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:21:42 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:23:00 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:23:00 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:26:18 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:26:18 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:27:10 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:27:10 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 16:55:56 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 16:55:56 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:424
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 424
+[28-Nov-2024 17:07:30 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 17:07:30 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:428
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 428
+[28-Nov-2024 17:09:06 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 17:09:06 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:428
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 428
+[28-Nov-2024 17:09:13 UTC] Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 17:09:13 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:428
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 428
+[28-Nov-2024 17:18:51 UTC] No se pudo actualizar el stock del departamento para el pallet ID 1. Asegúrate de que el pallet exista en el departamento.
+[28-Nov-2024 17:18:51 UTC] Error al aceptar el envío: Ocurrió un error al actualizar el stock del departamento. Por favor, contacta al administrador.
+[28-Nov-2024 17:18:51 UTC] PHP Fatal error:  Uncaught Exception: Error al aceptar el envío: Ocurrió un error al actualizar el stock del departamento. Por favor, contacta al administrador. in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:430
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(39): ModeloSupervendedor->aceptarEnvio()
+#1 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 430
+[28-Nov-2024 18:41:19 UTC] PHP Warning:  Undefined array key "stock" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 321
+[28-Nov-2024 18:41:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.stock' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:323
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(323): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(36): ModeloSupervendedor->aceptarRecepcion()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 323
+[28-Nov-2024 18:51:44 UTC] PHP Warning:  Undefined array key "stock" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 321
+[28-Nov-2024 18:51:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.stock' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:323
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(323): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(36): ModeloSupervendedor->aceptarRecepcion()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 323
+[28-Nov-2024 18:51:49 UTC] PHP Warning:  Undefined array key "stock" in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 321
+[28-Nov-2024 18:51:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'duralitc_despacho.stock' doesn't exist in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php:323
+Stack trace:
+#0 /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php(323): PDO->prepare()
+#1 /home/duralitc/public_html/despacho.duralit.com/controllers/supervendedor/SupervendedorController.php(36): ModeloSupervendedor->aceptarRecepcion()
+#2 {main}
+  thrown in /home/duralitc/public_html/despacho.duralit.com/models/ModeloSupervendedor.php on line 323
