@@ -44,6 +44,7 @@ El sistema cuenta con varios tipos de usuario, cada uno con actividades específ
 ## Estructura principal
 
 📁 **Estructura del Proyecto**
+´´
 Despacho/
 ├── index.php                    # Página principal de la aplicación
 ├── manifest.json                # Configuración PWA
@@ -80,7 +81,7 @@ Despacho/
 ├── vendor/                      # Dependencias instaladas por Composer
 │
 └── src/                         # Recursos estáticos (imágenes, logos, etc.)
-
+´´´
 ## Licencia
 
 Este proyecto es de uso privado y no está destinado a distribución pública.
